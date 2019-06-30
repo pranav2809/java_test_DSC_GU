@@ -22,7 +22,7 @@ public class Ice_Cream
                 //using second loop to find the other flavour so that cost of both together is equal to the pooled amount
                 for(int j = i + 1; j < n; j++)//using j = i+1 to avoid recurring of same flavours costing equal to pooled money but displayed twice due to change in sequence
                 {
-                    if(flavours[i] + flavours[j] == m)//checking the cost of two flavours
+                    if(cost[i] + cost[j] == m)//checking the cost of two flavours
                     {
                         System.out.println( (i + 1) + " " + (j + 1) );//avoiding break so as to display all flavours even if they have same price
                     }
