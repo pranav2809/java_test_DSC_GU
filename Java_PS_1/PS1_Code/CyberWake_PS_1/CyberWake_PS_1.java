@@ -15,7 +15,7 @@ public class Ice_Cream
             //integer array of size equal to number of flavour present particular day to store cost of all of them
             for(int i = 0; i < n; i++)
             {
-                flavours[i] = scan.nextInt();// taking the input of cost of all flavours one by one through the for loop
+                cost[i] = scan.nextInt();// taking the input of cost of all flavours one by one through the for loop
             }
             for(int i = 0; i < n; i++)//using outer loop to make one flavour constant
             {
